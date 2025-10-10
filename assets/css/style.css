@@ -524,7 +524,7 @@ details p{
     
     justify-content: center;
     align-items: center;
-    gap: 2vw;
+    gap: 1vw;
     text-align: center;
     
 }
@@ -545,6 +545,7 @@ details p{
 }
 .img8{
     width: 40vw;
+    height: 55%;
     border-radius: 1vw;
     box-shadow: 0 0 10px var(--color5);
 }
@@ -552,6 +553,7 @@ details p{
     transform: scale(1.05);
     transition: 0.3s;
 }
+
 form{
     display: flex;
     flex-direction: column;
@@ -559,10 +561,11 @@ form{
     align-items: center;
     gap: 1vw;
     text-align: left;
-    width: 50vw;
+    width: 40vw;
+    height: 80%;
     padding: 2vw;
     background-color: white;
-    border-radius: 0 5vw;
+    border-radius: 1vw;
     box-shadow: 0 0 10px var(--color5);
 }
 input, select, textarea{
