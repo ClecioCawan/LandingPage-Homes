@@ -124,7 +124,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     gap: 20px;
     text-align: left;
     width: 35vw;
@@ -156,6 +156,8 @@ main{
     padding: 0.5vw;
     border-radius: 3vw;
     transition: 0.3s;
+    width: 30%;
+    text-align: center;
     background-color: var(--color5);
 }
 /* sec2--------------------------------------------- */
@@ -400,6 +402,12 @@ main{
 .estrela img{
     width: 1vw;
 }
+.estrela{
+    display: flex;
+    align-items: center;
+    gap: .5vw;
+    margin-bottom: .5vw;
+}
 
 .nome{
     margin-right:  18vw;
@@ -457,12 +465,13 @@ summary:hover{
     cursor: pointer;
 }
 details p{
-    font-size: 1vw;
-    width: 50vw;
+    font-size: .8vw;
+    width: 30vw;
     border-radius: 2vw;
     box-shadow: 0 0 10px var(--color5);
     background-color: #d7dacf;
     padding: 1vw;
+    margin: 1vw;
 }
 
 
@@ -481,7 +490,7 @@ details p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     gap: 20px;
     text-align: left;
     width: 35vw;
@@ -510,10 +519,11 @@ details p{
     text-decoration: none;
     color: var(--color1);
     font-size: 1vw;
-    margin: 0 15px;
     padding: 0.5vw;
     border-radius: 3vw;
     transition: 0.3s;
+    width: 30%;
+    text-align: center;
     background-color: var(--color5);
 }
 /* ---------------------- */
@@ -524,7 +534,7 @@ details p{
     
     justify-content: center;
     align-items: center;
-    gap: 1vw;
+    gap: 2vw;
     text-align: center;
     
 }
@@ -532,11 +542,14 @@ details p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 2vw;
-    text-align: left;
-    width: 50vw;
-    padding: 2vw;
+    align-items: left;
+    gap: 1vw;
+    text-align: center;
+    width: 40vw;
+    padding: 1vw;
+    background-color: white;
+    box-shadow: #65727a 1px 1px 10px;
+    border-radius: 1vw;
 }
 .box-sec8 h2{
     font-size: 2vw;
@@ -558,15 +571,14 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     gap: 1vw;
     text-align: left;
     width: 40vw;
     height: 80%;
     padding: 2vw;
-    background-color: white;
-    border-radius: 1vw;
-    box-shadow: 0 0 10px var(--color5);
+
+
 }
 input, select, textarea{
     width: 100%;
@@ -575,6 +587,9 @@ input, select, textarea{
     border-radius: 0.5vw;
     font-size: 1vw;
     resize: vertical;
+}
+textarea{
+    height: 10vh;
 }
 button{
     width: 30%;
