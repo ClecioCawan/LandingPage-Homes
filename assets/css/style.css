@@ -652,11 +652,13 @@ footer{
 }
 
 @media (max-width: 540px) {
+
     nav ul li a, header a{
         display: none;
     }
 
     main,header, body, footer, section{
+        max-width: none;
         flex-direction: column;
         height: auto;
         padding: 1vw 0;
