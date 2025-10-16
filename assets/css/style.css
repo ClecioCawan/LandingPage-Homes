@@ -937,3 +937,284 @@ footer{
     }
 }
 
+@media (max-width: 960px){
+    nav ul li a, header a{
+        display: none;
+    }
+
+    main,header, body, footer, section{
+        max-width: none;
+        flex-direction: column;
+        height: auto;
+        padding: 1vw 0;
+    }
+    .logo img{
+        width: 20vw;
+    }
+    .logo h1{
+        font-size: 3vw;
+    }
+    
+    #sec1{
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+        gap: 5vw;
+    }
+    .box-sec1{
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+    }
+    .box-sec1 h1{
+        font-size: 6vw;
+    }
+    .box-sec1 p{
+        font-size: 3vw;
+    }
+    .img-sec1{
+        width: 80vw;
+        height: auto;
+    }
+    .box-sec1 a{
+        font-size: 3vw;
+        width: 60%;
+        padding: 2vw;
+    }
+    #sec2{
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+        gap: 5vw;
+    }
+    .box-sec2{
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+    }
+    .box-sec2 h1{
+        font-size: 4vw;
+    }
+    .nav-sec2{
+        width: 80vw;
+        justify-content: center;
+    }
+    .lista-sec2{
+        width: 80%;
+        justify-content: center;
+    }
+    .nav-sec2 ul li {
+        font-size: 3vw;
+        padding: 2vw 4vw;
+    }
+    .cards-sec2{
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+    .curso-box {
+        width: 70vw;
+        min-height: auto;
+    }
+    .curso-titulo {
+        font-size: 5vw;
+    }
+    .curso-conteudo {
+        font-size: 4vw;
+    }
+    .curso-icon img {
+        height: 20vh;
+    }
+    .box-cards{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 5vw;
+    }
+    #sec3{
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+        gap: 5vw;
+    }
+    .box-sec3{
+        flex-direction: column;
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+    }
+    .box-sec3 h2{
+        font-size: 4vw;
+    }
+    .cards-sec3{
+        
+        width: 100%;
+        align-items: center;
+        gap: 5vw;
+    }
+    .cd{
+        width: 25vw;
+        height: auto;
+    }
+    .cd h3{
+        font-size: 4vw;
+    }
+    .cd p{
+        font-size: 3vw;
+    }
+    .img3{
+        width: 80vw;
+        height: auto;
+    }
+
+    #sec4{
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+        gap: 5vw;
+    }
+    .box-sec4{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .box-sec4 h1{
+        font-size: 4vw;
+    }
+    .card4{
+        width: 80vw;
+        height: auto;
+    }
+    .card4 p{
+        font-size: 3vw;
+    }
+    .estrela img{
+        width: 4vw;
+    }
+    .nome{
+        margin-right:  0;
+        font-size: 2vw;
+    }
+    #sec4 h1{
+        font-size: 4vw;
+    }
+
+    #sec5{
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+        gap: 5vw;
+    }
+
+    #sec6{
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+        gap: 5vw;
+    }
+    .box-perg{
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+    }
+    .box-perg h2{
+        font-size: 4vw;
+    }
+    details summary{
+        width: 80vw;
+        font-size: 4vw;
+        padding: 2vw;
+        margin: 2vw 0;
+    }
+    details p{
+        font-size: 3vw;
+        width: 80vw;
+        padding: 2vw;
+        margin: 2vw 0;
+    }
+    #sec7{
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+        gap: 5vw;
+    }
+
+    .box-sec7{
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+    }
+    .box-sec7 h1{
+        font-size: 6vw;
+    }
+    .box-sec7 p{
+        font-size: 3vw;
+    }
+    .img-sec7{
+        width: 80vw;
+        height: auto;
+    }
+    .box-sec7 a{
+        font-size: 3vw;
+        width: 60%;
+        padding: 2vw;
+    }
+    #sec-8{
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+        gap: 5vw;
+    }
+    .box-sec8{
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+    }
+    .box-sec8 h2{
+        font-size: 4vw;
+    }
+    .img8{
+        width: 80vw;
+        height: auto;
+    }
+    form{
+        width: 80vw;
+        height: auto;
+        padding: 5vw ;
+        gap: 3vw;
+    }
+    input, select, textarea{
+        font-size: 3vw;
+        padding: 2vw;
+    }
+    textarea{
+        height: 20vh;
+    }
+    button{
+        font-size: 3vw;
+        width: 60%;
+        padding: 2vw;
+    }
+    .logo-footer img{
+        width: 60vw;
+    }
+    .logo-footer h1{
+        font-size: 6vw;
+    }
+    .contato-footer{
+        width: 80vw;
+        height: auto;
+        padding: 5vw 0;
+        gap: 3vw;
+    }
+
+    .svg  {
+        display: none;
+    }
+    
+}
+
+
+
